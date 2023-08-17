@@ -1,0 +1,24 @@
+From 70af02a7548a462293e94417155490bb1d7938c8 Mon Sep 17 00:00:00 2001
+From: Abdulmajeed <abdulmajeedmoazam@gmail.com>
+Date: Wed, 12 Jul 2023 22:49:54 +0500
+Subject: [PATCH 4/6] sdad
+
+---
+ Main.java | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Main.java b/Main.java
+index 2c4fc82..91877ac 100644
+--- a/Main.java
++++ b/Main.java
+@@ -19,7 +19,6 @@ public class GitSyncApplication implements CommandLineRunner {
+         SpringApplication.run(GitSyncApplication.class, args);
+     }
+ 
+-    @Override
+     public void run(String... args) throws Exception {
+         // Call the BitbucketService method here to fetch commit history
+         List<Commit> commits = bitbucketService.fetchCommitHistory();
+-- 
+2.33.0.windows.2
+

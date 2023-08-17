@@ -1,0 +1,24 @@
+From 167997d1521eb7f3eb8495452d8165328c052472 Mon Sep 17 00:00:00 2001
+From: Abdulmajeed <abdulmajeedmoazam@gmail.com>
+Date: Wed, 12 Jul 2023 22:48:01 +0500
+Subject: [PATCH 2/6] sdad
+
+---
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/README.md b/README.md
+index 39af52c..960eee5 100644
+--- a/README.md
++++ b/README.md
+@@ -16,6 +16,7 @@ This README would normally document whatever steps are necessary to get your app
+ * Database configuration
+ * How to run tests
+ * Deployment instructions
++okaa
+ 
+ ### Contribution guidelines ###
+ 
+-- 
+2.33.0.windows.2
+

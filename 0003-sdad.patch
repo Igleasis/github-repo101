@@ -1,0 +1,52 @@
+From aae5fcd0e48db87eda760249fa963034b5d508cb Mon Sep 17 00:00:00 2001
+From: Abdulmajeed <abdulmajeedmoazam@gmail.com>
+Date: Wed, 12 Jul 2023 22:49:33 +0500
+Subject: [PATCH 3/6] sdad
+
+---
+ Main.java | 33 +++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+ create mode 100644 Main.java
+
+diff --git a/Main.java b/Main.java
+new file mode 100644
+index 0000000..2c4fc82
+--- /dev/null
++++ b/Main.java
+@@ -0,0 +1,33 @@
++package com.example.gitSync;
++
++import org.springframework.boot.CommandLineRunner;
++import org.springframework.boot.SpringApplication;
++import org.springframework.boot.autoconfigure.SpringBootApplication;
++
++import java.util.List;
++
++@SpringBootApplication
++public class GitSyncApplication implements CommandLineRunner {
++
++    private final BitbucketService bitbucketService;
++
++    public GitSyncApplication(BitbucketService bitbucketService) {
++        this.bitbucketService = bitbucketService;
++    }
++
++    public static void main(String[] args) {
++        SpringApplication.run(GitSyncApplication.class, args);
++    }
++
++    @Override
++    public void run(String... args) throws Exception {
++        // Call the BitbucketService method here to fetch commit history
++        List<Commit> commits = bitbucketService.fetchCommitHistory();
++
++        // Do something with the fetched commit history
++        // For example, you can log the commit messages
++        for (Commit commit : commits) {
++            System.out.println(commit.getMessage());
++        }
++    }
++}
+-- 
+2.33.0.windows.2
+

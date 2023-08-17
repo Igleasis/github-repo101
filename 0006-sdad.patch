@@ -1,0 +1,26 @@
+From 7366ede0d4e7253723aec388c14169219868bc8d Mon Sep 17 00:00:00 2001
+From: Abdulmajeed <abdulmajeedmoazam@gmail.com>
+Date: Thu, 17 Aug 2023 23:16:46 +0500
+Subject: [PATCH 6/6] sdad
+
+---
+ com/example/gitSync/Main.java | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/com/example/gitSync/Main.java b/com/example/gitSync/Main.java
+index b6dffa9..4da079b 100644
+--- a/com/example/gitSync/Main.java
++++ b/com/example/gitSync/Main.java
+@@ -5,6 +5,9 @@ public class Main{
+ 
+ 
+     public static void main(String[] args) {
++
+     }
+ 
+ }
++
++//adding comment for comitting only
+-- 
+2.33.0.windows.2
+
